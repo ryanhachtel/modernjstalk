@@ -1,0 +1,224 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Renders correctly 1`] = `
+<div
+  className="ui container"
+>
+  <form
+    className="ui form"
+    onSubmit={[Function]}
+  >
+    <div
+      className="field"
+    >
+      <div
+        className="ui large icon input"
+      >
+        <input
+          aria-label="addNewTodoText"
+          onChange={[Function]}
+          placeholder="Todo"
+          type="text"
+          value=""
+        />
+        <i
+          aria-hidden="true"
+          className="plus icon"
+          onClick={[Function]}
+        />
+      </div>
+    </div>
+    <button
+      className="ui button"
+      data-testid="addNewTodoSubmit"
+      onClick={[Function]}
+      type="submit"
+    >
+      Submit
+    </button>
+  </form>
+  <br />
+  <div
+    className="ui container"
+  >
+    <div
+      className="ui vertically divided grid"
+    >
+      <div
+        className="three column row"
+      >
+        <div
+          className="center aligned column"
+        >
+          <button
+            className="ui large icon left labeled button"
+            onClick={[Function]}
+          >
+            Show Only Completed
+            <i
+              aria-hidden="true"
+              className="filter icon"
+              onClick={[Function]}
+            />
+          </button>
+        </div>
+        <div
+          className="center aligned column"
+        >
+          <button
+            className="ui large icon left labeled button"
+            onClick={[Function]}
+          >
+            Show Only Uncompleted
+            <i
+              aria-hidden="true"
+              className="filter icon"
+              onClick={[Function]}
+            />
+          </button>
+        </div>
+        <div
+          className="center aligned column"
+        >
+          <button
+            className="ui large icon left labeled button"
+            onClick={[Function]}
+          >
+            Show All
+            <i
+              aria-hidden="true"
+              className="list icon"
+              onClick={[Function]}
+            />
+          </button>
+        </div>
+      </div>
+    </div>
+    <br />
+    <div>
+      <div
+        className="ui divided middle aligned list"
+        role="list"
+      >
+        <div
+          className="item"
+          onClick={[Function]}
+          role="listitem"
+        >
+          <div
+            className="right floated content"
+          >
+            <button
+              className="ui large icon button"
+              name="check"
+              onClick={[Function]}
+            >
+              <i
+                aria-hidden="true"
+                className="check circle outline icon"
+                onClick={[Function]}
+              />
+            </button>
+            <button
+              className="ui large icon button"
+              name="trash"
+              onClick={[Function]}
+            >
+              <i
+                aria-hidden="true"
+                className="trash icon"
+                onClick={[Function]}
+              />
+            </button>
+          </div>
+          <i
+            aria-hidden="true"
+            className="pointing right large icon"
+            onClick={[Function]}
+          />
+          <div
+            className="content"
+          >
+            <h3
+              className="header uncompleted"
+            >
+              Completed Application
+            </h3>
+          </div>
+        </div>
+        <div
+          className="item"
+          onClick={[Function]}
+          role="listitem"
+        >
+          <div
+            className="right floated content"
+          >
+            <button
+              className="ui large icon button"
+              name="check"
+              onClick={[Function]}
+            >
+              <i
+                aria-hidden="true"
+                className="check circle outline icon"
+                onClick={[Function]}
+              />
+            </button>
+            <button
+              className="ui large icon button"
+              name="trash"
+              onClick={[Function]}
+            >
+              <i
+                aria-hidden="true"
+                className="trash icon"
+                onClick={[Function]}
+              />
+            </button>
+          </div>
+          <i
+            aria-hidden="true"
+            className="pointing right large icon"
+            onClick={[Function]}
+          />
+          <div
+            className="content"
+          >
+            <h3
+              className="header uncompleted"
+            >
+              Win a million dollars
+            </h3>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <br />
+  <br />
+  <div
+    className="ui vertically divided grid"
+  >
+    <div
+      className="one column row"
+    >
+      <div
+        className="center aligned column"
+      >
+        <button
+          className="ui large icon left labeled button"
+          onClick={[Function]}
+        >
+          Remove All Completed
+          <i
+            aria-hidden="true"
+            className="remove circle icon"
+            onClick={[Function]}
+          />
+        </button>
+      </div>
+    </div>
+  </div>
+</div>
+`;
