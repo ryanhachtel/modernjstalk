@@ -1,6 +1,6 @@
 # modernjstalk
-
-## Three Different version of a TodoMVC Application
+## Created for my talk at the 2019 Milliman Tech Forum
+## Three Different versions of a TodoMVC Application
 - JSAndReact: Regular React.js and ES6 JavaSCript
 - TSAndReact: Typescript with regular React.js
 - TSAndNewReact: Typescript with new React.js features like hooks/suspense/lazy
